@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "MinecraftTen";
+	src: url("../fonts/MinecraftTen-VGORe.ttf") format("truetype");
+}
+
+.font-mc {
+	font-family: "MinecraftTen", serif;
+}
+
+body {
+	background-image: url(../img/bg.png);
+	background-position: 35% 35%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Noto Sans', Tahoma, Verdana, sans-serif;
+	height:100%;width:100%;
+}
+
+nav .profile {
+	font-size: 1.75em;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+nav .profile:hover {
+	color: white;
+}
+
+.logo img {
+    width: 3em;
+	max-width: 100%;
+	height: auto !important;
+}
